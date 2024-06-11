@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+WHY DO WE USE INTERACTIVE DASHBOARD FOR STUDENTS?
+ANS --Interactive dashboards allow users with limited knowledge about a subject to explore and better understand the context and trends in data and decision scenarios.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+WHAT ARE USES OF DASHBOARD FOR STUDENTS?
+ANS-- Data dashboards are visual tools that display key information and metrics related to a specific goal, process, or outcome. They can help you monitor, analyze, and improve various aspects of education, such as student performance, learning outcomes, instructional design, and organizational efficiency.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+HOW TO CREATE A DASHBOARD?
+ANS-- What's your goal?
+Know your purpose and audience.
+Leverage the most-viewed spot.
+Design for the real world.
+Author at your final display size.
+Limit the number of views.
+Add interactivity to encourage exploration.
+Show filters
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+sprint planning
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+WEEK 1 -Pre-Planning Preparation
+- Define Objectives: Clarify the main goals of the sprint. Are you creating a new dashboard, adding features, or fixing bugs
+- Gather Requirements: Collect requirements from stakeholders to understand what needs to be included in the dashboard.
+- Review Backlog: Ensure your backlog is up-to-date with user stories, bugs, and tasks.
 
-### `npm run build`
+WEEK 2-Create wireframes and UI sketches,develop a UI prototype
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+WEEK 3-Create Main Dashboard Interface
+  - Design wireframes/mockups for the dashboard interface
+  - Develop the front-end layout using a framework (e.g., HTML,CSS,React)
+  - Implement responsive design to ensure compatibility with different devices
+  - Implement the UI with html and css ,add javascript ,develop main features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+WEEK  4- Add advance features using css and react
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+WEEK 5-  Conduct thorough testing on various devices,debug issues
 
-### `npm run eject`
+WEEK 6-Final adjustments to code and design,project presentation.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Tech stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Front end -html,css,javascript,react
 
-## Learn More
+back end -node.js,mongodb
+  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
