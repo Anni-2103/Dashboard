@@ -1,0 +1,91 @@
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 2.3rem;
+    height: 94vh;
+    width: 250px;
+    background-color: #fff;
+    position: fixed;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    text-align: center;
+    padding: 20px;
+    color: #27374d;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.logo-icon {
+    font-size: 1.4rem;
+}
+
+.profile-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    image-rendering: pixelated; /* or crisp-edges */
+}
+
+.user-name {
+    display: block;
+    font-size: 1.2rem;
+    color: #27374d;
+}
+
+.menu--list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.menu--list .item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    color: #27374d;
+}
+
+.menu--list .item:hover,
+.menu--list .item.active {
+    background: #27374d;
+    color: #dde6ed;
+}
+
+.icon {
+    font-size: 1.4rem;
+}
+
+.logout {
+    margin-top: auto; /* Adjusted to push logout button to the bottom */
+    padding-left: 20px;
+}
+
+.logout .item {
+    color: #27374d; /* Ensure the logout button has correct color */
+}
+
+.logout .item:hover {
+    background: #27374d;
+    color: #dde6ed;
+}
+
+
+

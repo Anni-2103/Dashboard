@@ -1,0 +1,57 @@
+/* app.css */
+
+.app-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.menu {
+    width: 250px; /* Ensure the sidebar has a fixed width */
+    background-color: #fff; /* Match sidebar background */
+    position: fixed;
+    height: 100vh;
+    padding-top: 20px;
+    border-right: 1px solid #ddd; /* Optional: adds a subtle border */
+}
+
+.main-content {
+    margin-left: 250px; /* Same width as the sidebar */
+    padding: 20px;
+    flex: 1; /* Take up the remaining space */
+    background-color: #f4f4f4;
+    overflow-y: auto; /* Ensure content can scroll if it overflows */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo-icon {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.menu--list {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.item:hover {
+    background-color: #575757;
+}
+
+.icon {
+    margin-right: 10px;
+}
